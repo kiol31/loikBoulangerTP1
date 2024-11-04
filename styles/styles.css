@@ -1,0 +1,132 @@
+/*div { border: 1px solid red; }*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #d0d8e0;
+    padding: 20px;
+    box-shadow: 0 0 50px red;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   margin-right: 50px;
+}
+
+.name-info {
+    text-align: left;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+.poste-recherche {
+    background-color: #b2d0e9; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center; 
+    border-radius: 10px;
+    border: 2px solid rgb(128, 163, 224);
+}
+.poste-recherche h3 {
+    margin: 0; 
+    font-size: 20px;
+    color: black;
+}
+.contour_largeG {
+    background-color: #3979ae; 
+    padding: auto; 
+    margin: auto; 
+    margin-left: -18px;
+    border-radius: 10px;
+    
+
+}
+.contour_largeD {
+    background-color: #3979ae; 
+    padding: auto; 
+    margin: auto; 
+    margin-right: -10px;
+    border-radius: 10px;
+    
+
+}
+
+.content {
+   display: flex;
+}
+
+.left-section {
+    
+    padding: 0px;
+    flex: 0.5;
+    
+}
+.right-section {
+    padding: 0px;
+    flex: 1;
+}
+
+h2 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+h3 {
+    color: #555;
+    margin: 5px 0;
+}
+h4 {
+    color: #323030;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    
+}
+p {
+    font-size: 13px;
+}
+
+ul {
+    
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.experience{
+    margin-bottom: 20px;
+}
+.education {
+    margin-bottom: 20px;
+}
+.ligne-verticale {
+    width: 4px; 
+    height: auto; 
+    background-color: #b2d0e9; 
+    margin: 10px; 
+    border: 2px solid rgb(128, 163, 224);
+}
